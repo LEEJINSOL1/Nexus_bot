@@ -555,6 +555,9 @@ section {
     border-radius: 1rem;
     box-shadow: var(--shadow-lg);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
 }
 
 .slide-title {
@@ -568,12 +571,20 @@ section {
     color: var(--text-secondary);
     line-height: 1.7;
     margin-bottom: 2rem;
+    flex-shrink: 0;
+}
+
+.slide-content img {
+    flex: 1;
+    min-height: 0;
 }
 
 .tutorial-image {
     width: 100%;
     max-width: 700px;
     height: auto;
+    max-height: 80vh;
+    object-fit: contain;
     border-radius: 0.75rem;
     box-shadow: var(--shadow-md);
     border: 1px solid var(--border-color);
