@@ -67,9 +67,6 @@ body {
     color: var(--text-primary);
 }
 
-.logo {
-    font-size: 1.75rem;
-}
 
 .nav-menu {
     display: flex;
@@ -322,11 +319,6 @@ section {
     border-color: var(--primary-color);
 }
 
-.feature-icon {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-}
-
 .feature-title {
     font-size: 1.5rem;
     font-weight: 700;
@@ -415,9 +407,14 @@ section {
     box-shadow: var(--shadow-xl);
 }
 
-.exchange-logo {
-    font-size: 4rem;
-    margin-bottom: 1rem;
+.exchange-logo-img {
+    max-width: 120px;
+    max-height: 120px;
+    width: auto;
+    height: auto;
+    margin: 0 auto 1.5rem;
+    display: block;
+    object-fit: contain;
 }
 
 .exchange-name {
