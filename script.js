@@ -111,6 +111,11 @@ const slideCounts = {
 
 function initializeSliders() {
     Object.keys(slideCounts).forEach(sliderId => {
+        const track = document.getElementById(`${sliderId}-track`);
+        if (track) {
+            const count = slideCounts[sliderId];
+            track.style.width = `${count * 100}%`;
+        }
         updateSlider(sliderId);
         updateIndicators(sliderId);
     });
