@@ -20,6 +20,7 @@
             <ul class="nav-menu">
                 <li><a href="#features">Features</a></li>
                 <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#how-to-use">How to Use</a></li>
                 <li><a href="#get-started">Get Started</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -146,7 +147,7 @@
                     <div class="step-content">
                         <h3 class="step-title">Connect Your Exchange</h3>
                         <p class="step-description">
-                            Connect your Bybit or Gate.io exchange API. Your credentials are 
+                            Connect your Bybit exchange API. Your credentials are 
                             encrypted and stored securely. Only trading permissions are required.
                         </p>
                     </div>
@@ -210,9 +211,165 @@
                     <img src="gateiologo.png" alt="Gate.io" class="exchange-logo-img">
                     <h3 class="exchange-name">Gate.io</h3>
                     <p class="exchange-description">
-                        Full support for Gate.io exchange. Connect your API and start copying 
-                        trades seamlessly.
+                        Gate.io support is currently under development. Coming soon!
                     </p>
+                    <span class="coming-soon-badge">Coming Soon</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Use Section -->
+    <section id="how-to-use" class="how-to-use">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">How to Use</h2>
+                <p class="section-description">
+                    Step-by-step guide to set up your copy trading bot
+                </p>
+            </div>
+            
+            <div class="tutorial-section">
+                <h3 class="tutorial-section-title">Step 1: Connect Bybit API</h3>
+                <div class="tutorial-steps">
+                    <div class="tutorial-step">
+                        <div class="tutorial-step-number">1.1</div>
+                        <div class="tutorial-content">
+                            <h4 class="tutorial-step-title">Start the Bot</h4>
+                            <p class="tutorial-step-description">
+                                Open the Telegram bot and click "Exchange API" button, then select "Bybit".
+                            </p>
+                            <img src="텔레그램_바이비트api연결0.png" alt="Select Bybit exchange" class="tutorial-image">
+                        </div>
+                    </div>
+                    <div class="tutorial-step">
+                        <div class="tutorial-step-number">1.2</div>
+                        <div class="tutorial-content">
+                            <h4 class="tutorial-step-title">Choose Trading Mode</h4>
+                            <p class="tutorial-step-description">
+                                Select "Real Trading" for live trading or "Demo Trading" to practice with virtual funds.
+                            </p>
+                            <img src="텔레그램_바이비트api연결1.png" alt="Choose trading mode" class="tutorial-image">
+                        </div>
+                    </div>
+                    <div class="tutorial-step">
+                        <div class="tutorial-step-number">1.3</div>
+                        <div class="tutorial-content">
+                            <h4 class="tutorial-step-title">Enter API Credentials</h4>
+                            <p class="tutorial-step-description">
+                                Enter your Bybit API Key and Secret Key. The bot will verify your credentials automatically.
+                            </p>
+                            <img src="텔레그램_바이비트api연결2.png" alt="Enter API credentials" class="tutorial-image">
+                        </div>
+                    </div>
+                    <div class="tutorial-step">
+                        <div class="tutorial-step-number">1.4</div>
+                        <div class="tutorial-content">
+                            <h4 class="tutorial-step-title">Enter Your UID</h4>
+                            <p class="tutorial-step-description">
+                                Enter your Bybit UID to complete the setup. For demo trading, UID verification is not required.
+                            </p>
+                            <img src="텔레그램_바이비트api연결3.png" alt="Enter UID" class="tutorial-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tutorial-section">
+                <h3 class="tutorial-section-title">Step 2: Create Bybit API Key</h3>
+                <div class="tutorial-steps">
+                    <div class="tutorial-step">
+                        <div class="tutorial-step-number">2.1</div>
+                        <div class="tutorial-content">
+                            <h4 class="tutorial-step-title">Go to API Management</h4>
+                            <p class="tutorial-step-description">
+                                Log in to Bybit and navigate to API Management. Click "Create New Key" or "API" in the Tools menu.
+                            </p>
+                            <img src="demo_apikey발급1.png" alt="API Management" class="tutorial-image">
+                        </div>
+                    </div>
+                    <div class="tutorial-step">
+                        <div class="tutorial-step-number">2.2</div>
+                        <div class="tutorial-content">
+                            <h4 class="tutorial-step-title">Select API Key Type</h4>
+                            <p class="tutorial-step-description">
+                                Choose "System-generated API Keys" for HMAC encryption. This is the recommended option.
+                            </p>
+                            <img src="demo_apikey발급2.png" alt="Select API key type" class="tutorial-image">
+                        </div>
+                    </div>
+                    <div class="tutorial-step">
+                        <div class="tutorial-step-number">2.3</div>
+                        <div class="tutorial-content">
+                            <h4 class="tutorial-step-title">Configure Permissions</h4>
+                            <p class="tutorial-step-description">
+                                Set permissions to "Read-Write" and enable "Unified Trading" with Contract, USDC Contracts, and SPOT trading permissions. No IP restriction needed.
+                            </p>
+                            <img src="demo_apikey발급3.png" alt="Configure permissions" class="tutorial-image">
+                        </div>
+                    </div>
+                    <div class="tutorial-step">
+                        <div class="tutorial-step-number">2.4</div>
+                        <div class="tutorial-content">
+                            <h4 class="tutorial-step-title">Save Your API Keys</h4>
+                            <p class="tutorial-step-description">
+                                Copy your API Key and API Secret immediately. The secret key will only be shown once. Keep them secure.
+                            </p>
+                            <img src="demo_apikey발급4.png" alt="Save API keys" class="tutorial-image">
+                        </div>
+                    </div>
+                    <div class="tutorial-step">
+                        <div class="tutorial-step-number">2.5</div>
+                        <div class="tutorial-content">
+                            <h4 class="tutorial-step-title">Find Your UID</h4>
+                            <p class="tutorial-step-description">
+                                Your UID can be found in your Bybit account profile. It's displayed next to your profile icon.
+                            </p>
+                            <img src="demo_apikey발급5.png" alt="Find UID" class="tutorial-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tutorial-section">
+                <h3 class="tutorial-section-title">Step 3: Set Up Copy Trading</h3>
+                <div class="tutorial-steps">
+                    <div class="tutorial-step">
+                        <div class="tutorial-step-number">3.1</div>
+                        <div class="tutorial-content">
+                            <h4 class="tutorial-step-title">Select Copy Source</h4>
+                            <p class="tutorial-step-description">
+                                Click "Copy Trading" in the main menu and choose between "Binance Leaderboard" or "Hyperliquid Wallet".
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tutorial-step">
+                        <div class="tutorial-step-number">3.2</div>
+                        <div class="tutorial-content">
+                            <h4 class="tutorial-step-title">Enter Target Information</h4>
+                            <p class="tutorial-step-description">
+                                For Binance Leaderboard, enter the encrypted UID from the leaderboard URL. For Hyperliquid, enter the wallet address.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tutorial-step">
+                        <div class="tutorial-step-number">3.3</div>
+                        <div class="tutorial-content">
+                            <h4 class="tutorial-step-title">Set Copy Ratio</h4>
+                            <p class="tutorial-step-description">
+                                Configure your copy ratio (0.00001x to 10x). For example, 0.1x means if the target opens 1 BTC, you'll open 0.1 BTC.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tutorial-step">
+                        <div class="tutorial-step-number">3.4</div>
+                        <div class="tutorial-content">
+                            <h4 class="tutorial-step-title">Start Copy Trading</h4>
+                            <p class="tutorial-step-description">
+                                Click "Start Copy" in the management menu. The bot will automatically mirror positions from your selected target.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

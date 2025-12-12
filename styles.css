@@ -441,6 +441,93 @@ section {
     color: var(--primary-dark);
 }
 
+.coming-soon-badge {
+    display: inline-block;
+    background: var(--gradient-2);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+/* How to Use Section */
+.how-to-use {
+    background: var(--bg-primary);
+}
+
+.tutorial-section {
+    margin-bottom: 4rem;
+}
+
+.tutorial-section:last-child {
+    margin-bottom: 0;
+}
+
+.tutorial-section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--text-primary);
+    text-align: center;
+}
+
+.tutorial-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.tutorial-step {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.tutorial-step-number {
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 0.5rem;
+    background: var(--gradient-1);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 700;
+    box-shadow: var(--shadow-md);
+}
+
+.tutorial-content {
+    flex: 1;
+}
+
+.tutorial-step-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    color: var(--text-primary);
+}
+
+.tutorial-step-description {
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+
+.tutorial-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 0.75rem;
+    box-shadow: var(--shadow-lg);
+    border: 1px solid var(--border-color);
+    display: block;
+    margin: 0 auto;
+}
+
 /* Get Started Section */
 .get-started {
     background: var(--bg-dark);
@@ -588,6 +675,19 @@ section {
 
     .hero-stats {
         gap: 2rem;
+    }
+
+    .tutorial-step {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .tutorial-step-number {
+        margin: 0 auto;
+    }
+
+    .tutorial-image {
+        max-width: 100%;
     }
 }
 
