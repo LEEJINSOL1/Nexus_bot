@@ -105,7 +105,7 @@ const sliderState = {
 };
 
 const slideCounts = {
-    'api-setup': 5,
+    'api-setup': 6,
     'bot-usage': 4
 };
 
