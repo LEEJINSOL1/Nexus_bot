@@ -106,7 +106,7 @@ const sliderState = {
 
 const slideCounts = {
     'api-setup': 6,
-    'bot-usage': 4
+    'bot-usage': 9
 };
 
 function initializeSliders() {
